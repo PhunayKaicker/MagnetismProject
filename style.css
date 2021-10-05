@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background-color: azure;
+    margin-top: 650px;
+}
+
+#birdsmigrating {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    background: linear-gradient(#669ecc 0%, #09477a 100%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    z-index: 1;
+}
+
+#divwelcome {
+    display: table-cell;
+    position: relative;
+}
+
+#bio {
+    text-align: center;
+}
+
+.line {
+    margin: auto;
+    width: 70px;
+    height: 5px;
+    background-color: black;
+}
+
+p {
+    margin: auto;
+    padding-top: 10px;
+    max-width: 400px;
+}
+
+.list {
+    display: inline;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.list:hover {
+    background-color: blueviolet;
+    color: cyan;
+}
+
+#HOW? {
+    font-family: monospace;
+    font-size: 75px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
